@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CPIC - Plantilla</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page" id="cpic">
+      <!-- Header ribbon -->
+      <div class="hdr-logo" data-slot="logo"></div>
+      <div class="hdr-title" data-slot="titulo">Carta de Porte Internacional por Carretera (CPIC)</div>
+      <div class="hdr-po" data-slot="po">PO-EC-0014-20</div>
+      <div class="hdr-number" data-slot="numero">N° 002832-2025</div>
+
+      <!-- Grid sections 1–23 matching document boxes -->
+      <section class="box b1" data-slot="1" id="s1"></section>
+      <section class="box b2" data-slot="2" id="s2"></section>
+      <section class="box b3" data-slot="3" id="s3"></section>
+      <section class="box b4" data-slot="4" id="s4"></section>
+      <section class="box b5" data-slot="5" id="s5"></section>
+      <section class="box b6" data-slot="6" id="s6"></section>
+      <section class="box b7" data-slot="7" id="s7"></section>
+      <section class="box b8" data-slot="8" id="s8"></section>
+      <section class="box b9" data-slot="9" id="s9"></section>
+      <section class="box b10" data-slot="10" id="s10"></section>
+      <section class="box b11" data-slot="11" id="s11"></section>
+      <section class="box b12" data-slot="12" id="s12"></section>
+
+      <!-- 13 is a nested table (peso) -->
+      <section class="box b13">
+        <div class="b13-grid">
+          <div class="b13-hdr">PESO EN KILOGRAMOS</div>
+          <div class="b13-neto" data-slot="13-neto" id="s13-neto"></div>
+          <div class="b13-bruto" data-slot="13-bruto" id="s13-bruto"></div>
+        </div>
+      </section>
+
+      <section class="box b14" data-slot="14" id="s14"></section>
+      <section class="box b15" data-slot="15" id="s15"></section>
+      <section class="box b16" data-slot="16" id="s16"></section>
+
+      <!-- 17 is a nested table (gastos) -->
+      <section class="box b17">
+        <div class="b17-grid">
+          <div class="b17-h1">Gastos a Pagar</div>
+          <div class="b17-head b17-c1">Concepto</div>
+          <div class="b17-head b17-c2">Monto a cargo Remitente</div>
+          <div class="b17-head b17-c3">Tipo de Moneda</div>
+          <div class="b17-head b17-c4">Monto a cargo Destinatario</div>
+          <div class="b17-head b17-c5">Tipo de Moneda</div>
+          <!-- Body rows (placeholders) -->
+          <div class="b17-row" data-slot="17-row-1" id="s17r1"></div>
+          <div class="b17-row" data-slot="17-row-2" id="s17r2"></div>
+          <div class="b17-row total" data-slot="17-total" id="s17total"></div>
+        </div>
+      </section>
+
+      <section class="box b18" data-slot="18" id="s18"></section>
+      <section class="box b19" data-slot="19" id="s19"></section>
+      <section class="box b20" data-slot="20" id="s20"></section>
+      <section class="box b21" data-slot="21" id="s21"></section>
+      <section class="box b22" data-slot="22" id="s22"></section>
+      <section class="box b23" data-slot="23" id="s23"></section>
+    </div>
+  </body>
+  </html>
+
